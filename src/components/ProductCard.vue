@@ -79,7 +79,7 @@ function tambahKeKeranjang(nama) {
  <h3 class="text-lg font-semibold mt-2">{{ nama }}</h3>
  <p class="text-gray-600">Rp {{ harga.toLocaleString('id-ID') }}</p>
  <button @click="tambahKeKeranjang(nama)"
- class="bg-blue-600 text-white px-4 py-2 rounded-lg mt-2 w-full hover:bgblue-700">
+ class="bg-red-600 text-white px-4 py-2 rounded-lg mt-2 w-full hover:bgblue-700">
  Tambah ke Keranjang
  </button>
  </div>
