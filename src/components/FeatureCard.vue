@@ -1,5 +1,5 @@
 <template>
-  <div class="feature-card">
+  <div class="bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>]">
     <div class="icon">{{ icon }}</div>
     <h3>{{ title }}</h3>
     <p>{{ description }}</p>
