@@ -40,7 +40,7 @@ const daftarTim = ref([
 <template>
   <div class="font-serif max-w-[<1000px>] p-[<20px>] bg-green-400">
     <!-- Header / Banner Title -->
-    <section class="banner-section">
+    <section class="h-14 bg-linear-65 from-purple-500 to-pink-500 rounded-[<16px>] p-[<40px 20px>] text-center bg-red-200 scroll-mb-[<40px>]">
       <h1>Tentang Kami</h1>
     </section>
 
@@ -89,7 +89,7 @@ const daftarTim = ref([
   </div>
 </template>
 
-<!-- <style scoped>
+<!-- <style sscroll-mb-[<value>]coped>
 .about-wrapper {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   max-width: 1000px;
