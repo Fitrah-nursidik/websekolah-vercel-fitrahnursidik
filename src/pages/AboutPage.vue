@@ -89,14 +89,14 @@ const daftarTim = ref([
   </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 .about-wrapper {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   color: #2d3748;
-}
+} -->
 
 
 /* Banner Header */
@@ -183,6 +183,6 @@ const daftarTim = ref([
   padding-top: 20px;
   border-top: 1px solid #e2e8f0;
 } */
-</style>
+<!-- </style> -->
 
 
