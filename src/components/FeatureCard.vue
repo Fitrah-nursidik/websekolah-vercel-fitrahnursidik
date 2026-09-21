@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>]">
+  <div class="bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-xl/30 ">
     <div class="icon">{{ icon }}</div>
     <h3>{{ title }}</h3>
     <p>{{ description }}</p>
@@ -23,8 +23,8 @@ defineProps({
 })
 </script>
 
-<style scoped>
-.feature-card {
+<!-- <style scoped> -->
+/* .feature-card {
   background-color: #77d1e7;
   padding: 24px;
   border-radius: 12px;
@@ -35,7 +35,7 @@ defineProps({
 }
 
 /* Efek hover sesuai petunjuk tugas */
-.feature-card:hover {
+/* .feature-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
 }
@@ -56,4 +56,4 @@ p {
   color: #666;
   margin: 0;
 }
-</style>
+<!-- </style> -->
