@@ -38,7 +38,7 @@ const daftarTim = ref([
 </script>
 
 <template>
-  <div class="about-wrapper">
+  <div class="font-serif max-w-[<1000px>] p-[<20px>] bg-green-400">
     <!-- Header / Banner Title -->
     <section class="banner-section">
       <h1>Tentang Kami</h1>
