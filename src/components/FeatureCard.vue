@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-none">
+  <div class="flex flex-wrap bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-none">
     <div class="text-[<2rem>] scroll-m-[<8px>]">{{ icon }}</div>
     <h3 class="m-[<8px 0>] text-[<1.1rem>] bg-white-100">{{ title }}</h3>
     <p clas="text-[<0.9rem>] bg-grey-100 m-[<0>]">{{ description }}</p>
