@@ -12,6 +12,7 @@ defineProps({
   <div
     class="rounded-xl bg-white p-6 text-center shadow-md"
   >
+
     <div
       class="mx-auto flex h-20 w-20 items-center justify-center rounded-full text-2xl font-bold text-white"
       :style="{ backgroundColor: bgColor }"
@@ -19,7 +20,7 @@ defineProps({
       {{ inisial }}
     </div>
 
-    <h3 class="mt-4 text-xl font-bold">
+    <h3 class="mt-4 text-xl font-bold text-slate-800">
       {{ nama }}
     </h3>
 
