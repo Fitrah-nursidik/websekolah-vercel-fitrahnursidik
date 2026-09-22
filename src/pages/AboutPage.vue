@@ -30,20 +30,16 @@ const daftarTim = ref([
 <template>
   <div class="min-h-screen bg-green-400">
 
-    <!-- Judul -->
     <section class="bg-gradient-to-r from-purple-500 to-pink-500 p-8 text-center">
       <h1 class="text-3xl font-bold">
         Tentang Kami
       </h1>
     </section>
 
-
-    <!-- Cerita Kami -->
     <section class="mx-auto max-w-5xl p-6">
 
       <div class="grid gap-6 md:grid-cols-2">
 
-        <!-- Teks -->
         <div class="bg-white rounded-lg p-6">
           <h2 class="mb-3 text-2xl font-bold">
             Cerita Kami
@@ -61,7 +57,6 @@ const daftarTim = ref([
         </div>
 
 
-        <!-- Gambar -->
         <div>
           <img
             src="/images/semangat.jpg"
@@ -75,7 +70,6 @@ const daftarTim = ref([
     </section>
 
 
-    <!-- Tim Kami -->
     <section class="bg-white p-6">
 
       <h2 class="mb-6 text-center text-2xl font-bold">
@@ -98,7 +92,6 @@ const daftarTim = ref([
     </section>
 
 
-    <!-- Footer -->
     <footer class="bg-white p-5 text-center">
       <p class="text-gray-500">
         © 2026 FITRAH NURSIDIK — Onlineshop
