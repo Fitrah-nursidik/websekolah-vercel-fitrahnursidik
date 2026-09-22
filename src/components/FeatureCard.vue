@@ -1,5 +1,6 @@
 <template>
-  <div class="flex flex-wrap bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-none">
+  <!-- <div class="flex bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-none"> -->
+    <div class="mx-auto flex max-w-6xl flex-wrap justify-center gap-6 px-4">
     <div class="text-[<2rem>] scroll-m-[<8px>]">{{ icon }}</div>
     <h3 class="m-[<8px 0>] text-[<1.1rem>] bg-white-100">{{ title }}</h3>
     <p clas="text-[<0.9rem>] bg-grey-100 m-[<0>]">{{ description }}</p>
@@ -7,6 +8,8 @@
 </template>
 
 <script setup>
+import { isDataView } from 'node:util/types';
+
 defineProps({
   icon: {
     type: String,
