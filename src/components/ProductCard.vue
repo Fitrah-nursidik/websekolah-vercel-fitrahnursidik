@@ -72,8 +72,15 @@ function tutupPreview() {
 }
 
 function tambahKeKeranjang(nama) {
-  const suara = new Audio('/audio/nikin-pop-up-something-160353.mp3')
+  const suara = new Audio('/nikin-pop-up-something-160353.mp3')
+
   suara.play()
+    .then(() => {
+      console.log('Suara berhasil diputar')
+    })
+    .catch((error) => {
+      console.log('Suara gagal:', error)
+    })
 
   alert(`${nama} ditambahkan ke keranjang!`)
 }
