@@ -72,7 +72,7 @@ function tutupPreview() {
 }
 
 function tambahKeKeranjang(nama) {
-  const suara = new Audio('/audio/notifikasi.mp3')
+  const suara = new Audio('/audio/nikin-pop-up-something-160353.mp3')
   suara.play()
 
   alert(`${nama} ditambahkan ke keranjang!`)
