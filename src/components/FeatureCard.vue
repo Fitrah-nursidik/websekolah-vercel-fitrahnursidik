@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-emerald-100 p-[<24px 20px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] flex flex-wrap">
+  <div class="bg-emerald-100 p-[<24px 20px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>]">
     <div class="text-[<2rem>] scroll-m-[<8px>]">{{ icon }}</div>
-    <h3>{{ title }}</h3>
-    <p>{{ description }}</p>
+    <h3 class="m-[<8px 0>] text-[<1.1rem>] bg-white-100">{{ title }}</h3>
+    <p clas="text-[<0.9rem>] bg-grey-100 m-[<0>]">{{ description }}</p>
   </div>
 </template>
 
