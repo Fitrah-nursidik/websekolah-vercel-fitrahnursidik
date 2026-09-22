@@ -17,14 +17,14 @@ const daftarTim = ref([
     id: 1,
     nama: 'Resky ganteng',
     jabatan: 'Project Leader',
-    inisial: 'R',
+    inisial: 'RG',
     color: '#ff7e5f'
   },
   {
     id: 2,
     nama: 'Fitrah Nur',
     jabatan: 'UI/UX Designer',
-    inisial: 'F',
+    inisial: 'FN',
     color: '#0d9488'
   },
   {
