@@ -1,6 +1,5 @@
 <template>
 
-  <!-- Hero -->
   <section
     class="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500
     px-6 py-20 text-center text-white"
