@@ -1,88 +1,86 @@
 <template>
-  <!-- <div class="landing-page"> -->
-    <!-- <section class="hero"> -->
-      <div class="hero bg-cyan-500 p-[100px] flex flex-col items-center justify-center text-white gap-[18px] ">
-      <h1 class="text-[25pt] text-center">Belanja Perlengkapan Buat Main Game atau Belajar, Gampang & Terpercaya</h1>
-      <p class="text-[20pt] landing-[80pt]">Dari pc, laptop, sampai monitor — semua ada di satu tempat.</p>
-      <!-- <RouterLink to="/product" class="btn-hero">Lihat Produk</RouterLink> -->
-       <RouterLink to="/product" button class="text-[10pt] bg-white text-black p-[10px] rounded-full font-bold animate-pulse 
-       display: inline-block;">Lihat produk</RouterLink>
+
+  <!-- Hero -->
+  <section
+    class="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500
+    px-6 py-20 text-center text-white"
+  >
+
+    <h1 class="mx-auto max-w-3xl text-3xl font-bold">
+      Belanja Perlengkapan Buat Main Game atau Belajar,
+      Gampang & Terpercaya
+    </h1>
+
+    <p class="mt-5 text-lg">
+      Dari PC, laptop, sampai monitor — semua ada di satu tempat.
+    </p>
+
+    <RouterLink
+      to="/product"
+      class="mt-6 inline-block rounded-full bg-white px-6 py-3
+      font-bold text-purple-600 hover:bg-gray-100"
+    >
+      Lihat Produk
+    </RouterLink>
+
+  </section>
+
+  <section class="flex justify-center bg-white px-6 py-10">
+
+    <video
+      controls
+      muted
+      loop
+      class="w-full max-w-xl rounded-xl shadow-lg"
+    >
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+
+      Browser kamu tidak mendukung pemutaran video.
+    </video>
+
+  </section>
+
+
+  <section class="bg-slate-50 px-6 py-10">
+
+    <div
+      class="mx-auto grid max-w-4xl grid-cols-2 gap-5"
+    >
+
+      <FeatureCard
+        icon="🏷️"
+        title="Kualitas Terjamin"
+        description="Bahan dipilih langsung oleh tim terbaik."
+      />
+      <FeatureCard
+        icon="💰"
+        title="Harga Bersahabat"
+        description="Harga ramah di kantong."
+      />
+
+    </div>
+
+    <div class="mx-auto mt-5 max-w-4xl">
+
+      <div class="mx-auto w-1/2 min-w-[160px]">
+
+        <FeatureCard
+          icon="🏫"
+          title="Ambil di tempat"
+          description="Tidak perlu ongkir, ambil di koperasi."
+        />
+
       </div>
-    <!-- </section> -->
-<video controls width="480" muted loop>
- <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
- Browser kamu tidak mendukung pemutaran video.
-</video>
-    <!-- Bagian Fitur (Menggunakan Props) -->
-    <section class="inline-flex flex-wrap gap-[20px] justify-center p-[0 20px 40px 20px] m-[<30px>]">
-      <FeatureCard 
-        icon="🏷️" 
-        title="Kualitas Terjamin" 
-        description="Bahan dipilih langsung oleh tim terbaik." 
-      />
-      <FeatureCard 
-        icon="💰" 
-        title="Harga Bersahabat" 
-        description="Harga ramah di kantong." 
-      />
-      <FeatureCard 
-        icon="🏫" 
-        title="Ambil di tempat" 
-        description="Tidak perlu ongkir, ambil di koperasi." 
-      />
-    </section>
+
+    </div>
+
+  </section>
+
 </template>
 
 <script setup>
 import FeatureCard from '../components/FeatureCard.vue'
 </script>
-
-<!-- <style scoped>
-/* Style Bagian Hero */
-.hero {
-   background: linear-gradient(135deg, #2718f1 0%, #e92a2a 100%);
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 2rem;
-  margin-bottom: 12px;
-}
-
-.hero p {
-  margin-bottom: 24px;
-  opacity: 0.9;
-}
-
-.btn-hero {
-  display: inline-block;
-  background-color: white;
-  color: #4f46e5;
-  padding: 10px 24px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: transform 0.2s;
-}
-
-.btn-hero:hover {
-  transform: translateY(-2px);
-}
-
-/* Container untuk menjajarkan kartu fitur */
-.features-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 30px;
-  padding: 0 20px 40px 20px;
-}
-video {
- margin-top: 16px;
- border-radius: 10px;
- display: block;
-}
-</style> -->
