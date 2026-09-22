@@ -1,9 +1,22 @@
-<template>
-  <!-- <div class="flex bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-none"> -->
+<!-- <template>
+  <div class="flex bg-emerald-100 p-[<24px>] rounded-[<12px>] shadow-[<0 6px 14px>] text-center w-[<250px>] shadow-none">
     <div class="mx-auto flex max-w-6xl flex-wrap justify-center gap-6 px-4">
     <div class="text-[<2rem>] scroll-m-[<8px>]">{{ icon }}</div>
     <h3 class="m-[<8px 0>] text-[<1.1rem>] bg-white-100">{{ title }}</h3>
     <p clas="text-[<0.9rem>] bg-grey-100 m-[<0>]">{{ description }}</p>
+  </div>
+</template> -->
+<template>
+  <div class="w-[250px] rounded-xl bg-emerald-100 p-6 text-center shadow-md">
+    <div class="text-[2rem]">{{ icon }}</div>
+
+    <h3 class="my-2 text-[1.1rem] font-semibold">
+      {{ title }}
+    </h3>
+
+    <p class="m-0 text-[0.9rem] text-gray-600">
+      {{ description }}
+    </p>
   </div>
 </template>
 
