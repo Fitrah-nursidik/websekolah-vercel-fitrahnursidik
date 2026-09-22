@@ -87,11 +87,11 @@ function tambahKeKeranjang(nama) {
 </script>
 
 <template>
-  <!-- CARD -->
+  
   <div
     class="bg-white rounded-xl shadow-md p-4 hover:shadow-xl transition border border-gray-200"
   >
-    <!-- GAMBAR -->
+    
     <img
       :src="gambar"
       :alt="nama"
@@ -99,17 +99,17 @@ function tambahKeKeranjang(nama) {
       class="w-full h-40 object-cover rounded-lg cursor-zoom-in"
     />
 
-    <!-- NAMA -->
+    
     <h3 class="text-lg font-semibold mt-2 text-gray-800">
       {{ nama }}
     </h3>
 
-    <!-- HARGA -->
+    
     <p class="text-gray-600">
       Rp {{ harga.toLocaleString('id-ID') }}
     </p>
 
-    <!-- TOMBOL KERANJANG -->
+    
     <button
       @click="tambahKeKeranjang(nama)"
       class="bg-red-600 text-white px-4 py-2 rounded-lg mt-2 w-full
@@ -119,12 +119,12 @@ function tambahKeKeranjang(nama) {
     </button>
   </div>
 
-  <!-- PREVIEW GAMBAR -->
+  
   <div
     v-if="gambarDipilih"
     class="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
   >
-    <!-- Tombol X -->
+  
     <button
       @click="tutupPreview"
       class="absolute top-5 right-5 bg-white text-gray-800
