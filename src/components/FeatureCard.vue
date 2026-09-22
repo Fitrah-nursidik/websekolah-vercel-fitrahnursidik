@@ -7,7 +7,7 @@
   </div>
 </template> -->
 <template>
-  <div class="w-[250px] rounded-xl bg-emerald-100 p-6 text-center shadow-md">
+  <div class="w-[250px] rounded-xl bg-emerald-100 p-6 text-center shadow-md justify-center">
     <div class="text-[2rem]">{{ icon }}</div>
 
     <h3 class="my-2 text-[1.1rem] font-semibold">
