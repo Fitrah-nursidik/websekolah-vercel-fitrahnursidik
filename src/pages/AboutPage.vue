@@ -8,14 +8,14 @@ const daftarTim = ref([
     nama: 'Resky Ganteng',
     jabatan: 'Project Leader',
     inisial: 'RG',
-    color: '#ff7e5f'
+    color: '#ff6b5f'
   },
   {
     id: 2,
     nama: 'Fitrah Nur',
     jabatan: 'UI/UX Designer',
     inisial: 'FN',
-    color: '#0d9488'
+    color: '#159a91'
   },
   {
     id: 3,
@@ -28,46 +28,60 @@ const daftarTim = ref([
 </script>
 
 <template>
-  <div class="min-h-screen bg-green-400">
+  <div class="min-h-screen bg-white text-slate-800">
 
-    <section class="bg-gradient-to-r from-purple-500 to-pink-500 p-8 text-center">
-      <h1 class="text-3xl font-bold">
+    <section
+      class="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 p-12 text-center"
+    >
+      <h1 class="text-4xl font-bold text-white">
         Tentang Kami
       </h1>
+
+      <p class="mt-3 text-white">
+        Kenalan dengan tim kami 👋
+      </p>
     </section>
 
     <section class="mx-auto max-w-5xl p-6">
 
-      <div class="grid gap-6 md:grid-cols-2">
+      <div class="grid gap-8 md:grid-cols-2">
 
-        <div class="bg-white rounded-lg p-6">
-          <h2 class="mb-3 text-2xl font-bold">
+        <div class="py-4">
+
+          <h2 class="mb-4 text-3xl font-bold text-slate-800">
             Cerita Kami
           </h2>
 
-          <p class="mb-3">
+          <p class="mb-4 leading-7 text-slate-600">
             Platform onlineshop ini lahir dari inisiatif mandiri
             siswa SMK Yadika Soreang jurusan PPLG.
           </p>
 
-          <p>
+          <p class="leading-7 text-slate-600">
             Fokus utama kami adalah memberikan kemudahan bagi
             warga sekolah dalam memenuhi kebutuhan belajar sehari-hari.
           </p>
-        </div>
 
+        </div>
       </div>
 
     </section>
 
 
-    <section class="bg-white p-6">
+    <section class="bg-slate-50 p-8">
 
-      <h2 class="mb-6 text-center text-2xl font-bold">
+      <h2 class="mb-2 text-center text-3xl font-bold">
         Tim Kami
       </h2>
 
-      <div class="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
+      <p class="mb-8 text-center text-slate-500">
+        Orang-orang di balik pembuatan website ini
+      </p>
+
+
+      <div
+        class="mx-auto grid max-w-5xl gap-6 md:grid-cols-3"
+      >
 
         <TeamCard
           v-for="anggota in daftarTim"
@@ -82,12 +96,6 @@ const daftarTim = ref([
 
     </section>
 
-
-    <footer class="bg-white p-5 text-center">
-      <p class="text-gray-500">
-        © 2026 FITRAH NURSIDIK — Onlineshop
-      </p>
-    </footer>
 
   </div>
 </template>
