@@ -56,15 +56,6 @@ const daftarTim = ref([
           </p>
         </div>
 
-
-        <div>
-          <img
-            src="/images/semangat.jpg"
-            alt="Semangat"
-            class="h-64 w-full rounded-lg object-cover"
-          />
-        </div>
-
       </div>
 
     </section>
