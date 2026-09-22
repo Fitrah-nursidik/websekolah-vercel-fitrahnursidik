@@ -14,7 +14,7 @@
  Browser kamu tidak mendukung pemutaran video.
 </video>
     <!-- Bagian Fitur (Menggunakan Props) -->
-    <section class="inline-flex flex-wrap gap-[20px] justify-center p-[150px] m-[<30px>]">
+    <section class="inline-flex flex-wrap gap-[20px] justify-center p-[0 20px 40px 20px] m-[<30px>]">
       <FeatureCard 
         icon="🏷️" 
         title="Kualitas Terjamin" 
