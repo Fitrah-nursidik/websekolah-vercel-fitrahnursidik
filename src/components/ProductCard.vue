@@ -58,33 +58,79 @@ button:hover { background: #2bc08e; }
 </style> -->
 <script setup>
 import { ref } from 'vue'
+
 defineProps(['nama', 'harga', 'gambar'])
+
 const gambarDipilih = ref(null)
+
 function bukaPreview(src) {
- gambarDipilih.value = src
+  gambarDipilih.value = src
 }
+
 function tutupPreview() {
- gambarDipilih.value = null
+  gambarDipilih.value = null
 }
+
 function tambahKeKeranjang(nama) {
- const suara = new Audio('/audio/notifikasi.mp3')
- suara.play()
- alert(`${nama} ditambahkan ke keranjang!`)
+  const suara = new Audio('/audio/notifikasi.mp3')
+  suara.play()
+
+  alert(`${nama} ditambahkan ke keranjang!`)
 }
 </script>
+
 <template>
- <div class="bg-white rounded-xl shadow-md p-4 hover:shadow-lg transition">
- <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)"
- class="w-full h-40 object-cover rounded-lg cursor-pointer" />
- <h3 class="text-lg font-semibold mt-2">{{ nama }}</h3>
- <p class="text-gray-600">Rp {{ harga.toLocaleString('id-ID') }}</p>
- <button @click="tambahKeKeranjang(nama)"
- class="bg-red-600 text-white px-4 py-2 rounded-lg mt-2 w-full hover:bgblue-700">
- Tambah ke Keranjang
- </button>
- </div>
- <div v-if="gambarDipilih" class="fixed inset-0 bg-black/70 flex items-center justifycenter cursor-zoom-out"
- @click="tutupPreview">
- <img :src="gambarDipilih" class="max-w-[80%] max-h-[80%] rounded-lg" />
- </div>
+  <!-- CARD -->
+  <div
+    class="bg-white rounded-xl shadow-md p-4 hover:shadow-xl transition border border-gray-200"
+  >
+    <!-- GAMBAR -->
+    <img
+      :src="gambar"
+      :alt="nama"
+      @click="bukaPreview(gambar)"
+      class="w-full h-40 object-cover rounded-lg cursor-zoom-in"
+    />
+
+    <!-- NAMA -->
+    <h3 class="text-lg font-semibold mt-2 text-gray-800">
+      {{ nama }}
+    </h3>
+
+    <!-- HARGA -->
+    <p class="text-gray-600">
+      Rp {{ harga.toLocaleString('id-ID') }}
+    </p>
+
+    <!-- TOMBOL KERANJANG -->
+    <button
+      @click="tambahKeKeranjang(nama)"
+      class="bg-red-600 text-white px-4 py-2 rounded-lg mt-2 w-full
+             hover:bg-red-700 active:scale-95 transition"
+    >
+      Tambah ke Keranjang
+    </button>
+  </div>
+
+  <!-- PREVIEW GAMBAR -->
+  <div
+    v-if="gambarDipilih"
+    class="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
+  >
+    <!-- Tombol X -->
+    <button
+      @click="tutupPreview"
+      class="absolute top-5 right-5 bg-white text-gray-800
+             w-10 h-10 rounded-full text-2xl font-bold
+             hover:bg-red-600 hover:text-white transition"
+    >
+      ×
+    </button>
+
+    <!-- Gambar -->
+    <img
+      :src="gambarDipilih"
+      class="max-w-[85%] max-h-[80%] rounded-lg shadow-2xl"
+    />
+  </div>
 </template>
