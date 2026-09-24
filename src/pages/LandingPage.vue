@@ -64,7 +64,7 @@
 
     <div class="mx-auto mt-5 max-w-4xl">
 
-      <div class="mx-auto w-1/2 min-w-[160px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div class="mx-auto w-1/2 min-w-[160px]">
 
         <FeatureCard
           icon="🏫"
