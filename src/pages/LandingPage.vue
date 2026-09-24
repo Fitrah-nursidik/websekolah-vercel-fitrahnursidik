@@ -61,7 +61,7 @@
         description="Harga ramah di kantong,aalitan es."
       />
     
-
+    </div>
     <div class="mx-auto mt-5 max-w-4xl">
 
       <div class="mx-auto w-1/2 min-w-[160px]">
@@ -75,7 +75,7 @@
       </div>
 
     </div>
-   </div>
+  
   </section>
 
 </template>
