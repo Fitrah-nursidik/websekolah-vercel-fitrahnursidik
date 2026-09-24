@@ -46,7 +46,7 @@
   <section class="bg-slate-50 px-6 py-10">
 
     <div
-      class="mx-auto grid max-w-4xl grid-cols-2 gap-5"
+      class="mx-auto grid max-w-4xl grid-cols-2 gap-5 hover:bg-sky-700"
     >
 
       <FeatureCard
