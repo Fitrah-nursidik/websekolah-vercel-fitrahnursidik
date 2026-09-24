@@ -112,7 +112,7 @@ function tambahKeKeranjang(nama) {
     
     <button
       @click="tambahKeKeranjang(nama)"
-      class="bg-red-600 text-white px-4 py-2 rounded-lg mt-2 w-full
+      class="bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500 px-4 py-2 rounded-lg mt-2 w-full
              hover:bg-red-700 active:scale-95 transition"
     >
       Tambah ke Keranjang
