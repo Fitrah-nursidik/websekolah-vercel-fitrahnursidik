@@ -131,7 +131,7 @@ function tambahKeKeranjang(nama) {
              w-10 h-10 rounded-full text-2xl font-bold
              hover:bg-red-600 hover:text-white transition"
     >
-
+     x
     </button>
 
     <img
