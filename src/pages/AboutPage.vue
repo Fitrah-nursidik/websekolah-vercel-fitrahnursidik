@@ -64,15 +64,16 @@ const daftarTim = ref([
 
         </div>
       </div>
-
-    </section>
-          <div>
-  <img
+      <div>
+<img
     src="/semangat.jpg"
     alt="Semangat"
     class="h-100 w-50 rounded-xl object-cover shadow-lg justify-center"
   />
 </div>
+
+    </section>
+    
 
     <section class="bg-slate-50 p-8">
 
