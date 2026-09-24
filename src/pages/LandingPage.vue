@@ -16,8 +16,8 @@
 
     <RouterLink
       to="/product"
-      class="mt-6 inline-block rounded-full bg-white px-6 py-3  transform transition-all
-      font-bold text-purple-600 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
+      class="mt-6 inline-block rounded-full bg-white px-6 py-3 
+      font-bold text-purple-600 transition-shadow hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
     >
       Lihat Produk
     </RouterLink>
@@ -48,7 +48,7 @@
     <div
       class="mx-auto grid max-w-4xl grid-cols-2 gap-5 "
     >
-
+     
       <FeatureCard
         icon="🏷️"
         title="Kualitas Terjamin,aman dan terpercaya tanpa lecet"
