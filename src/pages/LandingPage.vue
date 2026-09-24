@@ -17,7 +17,7 @@
     <RouterLink
       to="/product"
       class="mt-6 inline-block rounded-full bg-white px-6 py-3 
-      font-bold text-purple-600 transition-shadow hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
+      font-bold text-purple-600 transition hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
     >
       Lihat Produk
     </RouterLink>
@@ -45,26 +45,26 @@
 
   <section class="bg-slate-50 px-6 py-10">
 
-    <div
-      class="mx-auto grid max-w-4xl grid-cols-2 gap-5 "
+    <div class="mx-auto grid max-w-4xl grid-cols-2 gap-5 "
     >
-     
-      <FeatureCard
+      <div class="transition">
+       <FeatureCard
         icon="🏷️"
         title="Kualitas Terjamin,aman dan terpercaya tanpa lecet"
         description="Bahan dipilih langsung oleh tim terbaik kita."
-      />
+       />
+      </div>
+    <div class="transition">
       <FeatureCard
         icon="💰"
         title="Harga Bersahabat banget "
         description="Harga ramah di kantong,aalitan es."
       />
-
-    </div>
+      </div>
 
     <div class="mx-auto mt-5 max-w-4xl">
 
-      <div class="mx-auto w-1/2 min-w-[160px]">
+      <div class="mx-auto w-1/2 min-w-[160px] transition">
 
         <FeatureCard
           icon="🏫"
@@ -75,7 +75,7 @@
       </div>
 
     </div>
-
+   </div>
   </section>
 
 </template>
