@@ -38,7 +38,7 @@ const daftarTim = ref([
       </h1>
 
       <p class="mt-3 text-white">
-        Kenalan dengan tim kami 👋
+        kalian bisa kenalan dengan tim kami 👋
       </p>
     </section>
 
@@ -53,13 +53,13 @@ const daftarTim = ref([
           </h2>
 
           <p class="mb-4 leading-7 text-slate-600">
-            Platform onlineshop ini lahir dari inisiatif mandiri
+            Platform onlineshop ini lahir dari inisiatif mandiri seorang 
             siswa SMK Yadika Soreang jurusan PPLG.
           </p>
 
           <p class="leading-7 text-slate-600">
             Fokus utama kami adalah memberikan kemudahan bagi
-            warga sekolah dalam memenuhi kebutuhan belajar sehari-hari.
+            warga sekolah dalam memenuhi kebutuhan belajar ngoding dan lain lain .
           </p>
 
         </div>

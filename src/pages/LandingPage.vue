@@ -51,13 +51,13 @@
 
       <FeatureCard
         icon="🏷️"
-        title="Kualitas Terjamin"
-        description="Bahan dipilih langsung oleh tim terbaik."
+        title="Kualitas Terjamin,aman dan terpercaya tanpa lecet"
+        description="Bahan dipilih langsung oleh tim terbaik kita."
       />
       <FeatureCard
         icon="💰"
-        title="Harga Bersahabat"
-        description="Harga ramah di kantong."
+        title="Harga Bersahabat banget "
+        description="Harga ramah di kantong,aalitan es."
       />
 
     </div>
@@ -68,8 +68,8 @@
 
         <FeatureCard
           icon="🏫"
-          title="Ambil di tempat"
-          description="Tidak perlu ongkir, ambil di koperasi."
+          title="Ambil di tempat atau koperasi"
+          description="Tidak perlu ongkir karna kamu yang datang ke koperasi."
         />
 
       </div>
