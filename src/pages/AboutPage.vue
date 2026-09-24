@@ -61,6 +61,7 @@ const daftarTim = ref([
             Fokus utama kami adalah memberikan kemudahan bagi
             warga sekolah dalam memenuhi kebutuhan belajar ngoding dan lain lain .
           </p>
+          </div>
  <div class="flex justify-center">
 <img
     src="/semangat.jpg"
@@ -68,7 +69,6 @@ const daftarTim = ref([
     class="h-50 w-50 rounded-xl object-cover shadow-lg"
   />
 </div>
-        </div>
       </div>
      
 
