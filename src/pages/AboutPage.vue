@@ -5,7 +5,7 @@ import TeamCard from '../components/TeamCard.vue'
 const daftarTim = ref([
   {
     id: 1,
-    nama: 'Resky Ganteng',
+    nama: 'Restu',
     jabatan: 'Project Leader',
     inisial: 'RG',
     color: '#ff6b5f'
