@@ -47,13 +47,13 @@ text-align: center;
 
 .nav-item {
   text-decoration: none;
-  color: #64748b;
+  color: #000000;
   font-weight: 500;
   font-size: 0.9rem;
 }
 
 .nav-item.active, .nav-item:hover {
-  color: #0d9488;
+  color: #f70656;
   font-weight: 700;
 }
 
