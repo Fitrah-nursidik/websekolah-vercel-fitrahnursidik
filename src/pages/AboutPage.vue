@@ -61,16 +61,16 @@ const daftarTim = ref([
             Fokus utama kami adalah memberikan kemudahan bagi
             warga sekolah dalam memenuhi kebutuhan belajar ngoding dan lain lain .
           </p>
-
-        </div>
-      </div>
-      <div>
+ <div>
 <img
     src="/semangat.jpg"
     alt="Semangat"
-    class="h-100 w-50 rounded-xl object-cover shadow-lg justify-center"
+    class="h-50 w-50 rounded-xl object-cover shadow-lg justify-center"
   />
 </div>
+        </div>
+      </div>
+     
 
     </section>
     
