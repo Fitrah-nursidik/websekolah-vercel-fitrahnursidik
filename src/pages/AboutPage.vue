@@ -70,7 +70,7 @@ const daftarTim = ref([
   <img
     src="/semangat.jpg"
     alt="Semangat"
-    class="h-14 w-full rounded-xl object-cover shadow-lg justify-center"
+    class="h-100 w-50 rounded-xl object-cover shadow-lg justify-center"
   />
 </div>
 
