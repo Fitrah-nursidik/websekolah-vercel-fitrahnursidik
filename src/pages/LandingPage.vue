@@ -47,24 +47,24 @@
 
     <div class="mx-auto grid max-w-4xl grid-cols-2 gap-5 "
     >
-      <div class="transition">
+      
        <FeatureCard
         icon="🏷️"
         title="Kualitas Terjamin,aman dan terpercaya tanpa lecet"
         description="Bahan dipilih langsung oleh tim terbaik kita."
        />
-      </div>
-    <div class="transition">
+      
+    
       <FeatureCard
         icon="💰"
         title="Harga Bersahabat banget "
         description="Harga ramah di kantong,aalitan es."
       />
-      </div>
+    
 
     <div class="mx-auto mt-5 max-w-4xl">
 
-      <div class="mx-auto w-1/2 min-w-[160px] transition">
+      <div class="mx-auto w-1/2 min-w-[160px]">
 
         <FeatureCard
           icon="🏫"
