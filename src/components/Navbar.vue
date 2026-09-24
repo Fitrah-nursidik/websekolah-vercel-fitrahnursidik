@@ -20,17 +20,17 @@
     </header>
   <hr />
 </template>
-
 <style scoped>
 /* .atas{
 text-align: center;
 }  */
-.navbar {
+ .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
   margin-bottom: 20px;
+  background-color: darkorchid;
 }
 
 .brand-logo {
