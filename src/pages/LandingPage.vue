@@ -46,7 +46,7 @@
   <section class="bg-slate-50 px-6 py-10">
 
     <div
-      class="mx-auto grid max-w-4xl grid-cols-2 gap-5 hover:bg-sky-700"
+      class="mx-auto grid max-w-4xl grid-cols-2 gap-5 "
     >
 
       <FeatureCard
@@ -64,7 +64,7 @@
 
     <div class="mx-auto mt-5 max-w-4xl">
 
-      <div class="mx-auto w-1/2 min-w-[160px]">
+      <div class="mx-auto w-1/2 min-w-[160px] hover:bg-sky-700">
 
         <FeatureCard
           icon="🏫"
