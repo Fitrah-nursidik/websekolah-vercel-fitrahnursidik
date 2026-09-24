@@ -16,7 +16,7 @@
 
     <RouterLink
       to="/product"
-      class="mt-6 inline-block rounded-full bg-white px-6 py-3
+      class="mt-6 inline-block rounded-full bg-white px-6 py-3  transform transition-all
       font-bold text-purple-600 hover:bg-gray-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
     >
       Lihat Produk
