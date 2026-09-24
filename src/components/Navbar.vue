@@ -30,7 +30,8 @@ text-align: center;
   align-items: center;
   padding: 15px 0;
   margin-bottom: 20px;
-  background-color: darkorchid;
+  background: linear-gradient(to right, #4f46e5, #a855f7, #ec4899);
+  
 }
 
 .brand-logo {
