@@ -17,7 +17,7 @@
     <RouterLink
       to="/product"
       class="mt-6 inline-block rounded-full bg-white px-6 py-3
-      font-bold text-purple-600 hover:bg-gray-100"
+      font-bold text-purple-600 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700"
     >
       Lihat Produk
     </RouterLink>
@@ -64,7 +64,7 @@
 
     <div class="mx-auto mt-5 max-w-4xl">
 
-      <div class="mx-auto w-1/2 min-w-[160px] hover:bg-sky-700">
+      <div class="mx-auto w-1/2 min-w-[160px]">
 
         <FeatureCard
           icon="🏫"
