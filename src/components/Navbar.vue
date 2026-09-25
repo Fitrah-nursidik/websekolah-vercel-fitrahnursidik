@@ -12,10 +12,10 @@
      <header class="navbar">
       <div class="brand-logo">Fitrah Nursidik — Onlineshop</div>
       <nav class="nav-links">
-        <RouterLink to="/" class="nav-item">Landing</RouterLink>
-        <RouterLink to="/product" class="nav-item">Product</RouterLink>
-        <RouterLink to="/about" class="nav-item ">About</RouterLink>
-        <RouterLink to="/contact" class="nav-item">Contact</RouterLink>
+        <RouterLink to="/" class="nav-item">Landing</RouterLink> |
+        <RouterLink to="/product" class="nav-item">Product</RouterLink> |
+        <RouterLink to="/about" class="nav-item ">About</RouterLink> |
+        <RouterLink to="/contact" class="nav-item">Contact</RouterLink> |
       </nav>
     </header>
   <hr />
